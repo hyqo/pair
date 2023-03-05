@@ -1,5 +1,5 @@
 {
-    "name": "hyqo/",
+    "name": "hyqo/pair",
     "description": "",
     "keywords": [
     ],
@@ -11,19 +11,19 @@
         }
     ],
     "require": {
-        "php": "^8.2"
+        "php": "^7.2|^8.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^10.0"
+        "phpunit/phpunit": "^8.5"
     },
     "autoload": {
-        "psr-4": {
-            "Hyqo\\\\": "src"
-        }
+        "files": [
+            "src/functions.php"
+        ]
     },
     "autoload-dev": {
         "psr-4": {
-            "Hyqo\\\\Test\\": "tests"
+            "Hyqo\\Pair\\Test\\": "tests"
         }
     }
 }
